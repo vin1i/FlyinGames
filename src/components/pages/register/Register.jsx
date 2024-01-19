@@ -53,7 +53,7 @@ const Register= () => {
                     </div>
  
                         <div className="container-login-form-btn">
-                            <a href="home"className='login-form-btn'>Login</a>
+                            <a href="home"className='login-form-btn'>Registrar</a>
                         </div>
 
                         <div className="text-center">
