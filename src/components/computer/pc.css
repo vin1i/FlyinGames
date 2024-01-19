@@ -1,0 +1,159 @@
+.star__container{
+
+    
+    width: 1900px;
+
+}
+
+
+
+.star__card{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-2);
+   
+    padding: 1rem;
+   
+    
+}
+
+.star__img{
+   
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+    cursor: pointer;
+}
+
+.star__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-25);
+    cursor: pointer;
+    
+}
+
+.star__price{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+
+
+/*Swiper Class*/
+
+.swiper-pagination-bullet{
+    background-color: var(--main-color)!important;
+    
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--main-color)!important;
+    
+}
+
+
+
+
+/*-------------------------------------------BREAKPOINTS-----------------------------------------*/
+
+
+
+/*For large devices*/
+
+@media screen and (max-width: 992px) {
+   .star_container{
+    width: initial;
+    
+   }
+
+   .star__card{
+    padding: 1.25rem 1.5rem;
+
+   }
+    
+  }
+
+
+   /*For medium devices*/
+
+
+
+   @media screen and (max-width: 835px) {
+
+    .star__container{
+        width: 2000px;
+      left: 0.2rem;
+    }
+
+     .star__card{
+    padding: 1.25rem 1.5rem;
+
+   }
+     
+   }
+
+
+   @media screen and (max-width:768px) {
+    
+  
+    .star__container{
+ 
+     
+     width: 2040px;
+     
+ 
+ }
+ 
+ 
+ 
+ .star__card{
+     background-color: var(--container-color);
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 1.5rem;
+     margin-bottom: var(--mb-2);
+    
+     padding: 1rem ;
+    
+     
+ }
+ }
+
+   
+   @media screen and (max-width: 576px) {
+
+    .star__container{
+        width: 1020px;
+      
+    }
+
+
+   }
+
+   /*small devices*/
+
+   @media screen and (max-width:350px) {
+    
+  
+   .star__container{
+
+    
+    width: 940px;
+    
+
+}
+
+
+
+.star__card{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-2);
+   
+    padding: 1rem ;
+   
+    
+}
+}
