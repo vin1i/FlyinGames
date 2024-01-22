@@ -1,4 +1,4 @@
-import Image1 from '../../assets/RDR2.jpg';
+/*import Image1 from '../../assets/RDR2.jpg';
 import Image2 from '../../assets/Fallout4.png';
 import Image3 from '../../assets/mafia3.jpg';
 import Image4 from '../../assets/Hitman.jpg';
@@ -12,12 +12,9 @@ import Image11 from '../../assets/Baldursgate.jpg';
 import Image12 from '../../assets/Sleeping Dogs.jpg';
 import Image13 from '../../assets/SpiderMan.jpg';
 import Image14 from '../../assets/SpiderMan2.jpg';
-
 import './pc.css';
 
-
-
-export const gamesPc  = [
+const gamesList = [
   {
     id: 1,
     image: Image1,
@@ -116,4 +113,29 @@ export const gamesPc  = [
     preço: '50$ ',
     categoria: 'Ação | Aventura',
   },
+  
 ];
+
+function games ( response) {
+  const dynamicDate = new Date();
+  
+  
+  response.json({
+    date:dynamicDate.toGMTString(),
+    games: gamesList,
+
+
+
+      function searchGames(response, query) {
+        const results = gamesList.filter((game) =>
+        game.name.toLowerCase().includes(query.toLowerCase())
+        );
+
+        response.json({
+          results: results,
+        });
+      }
+  });
+}
+  
+export {games, searchGames};

@@ -4,6 +4,8 @@ import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './components/pages/login/Login';
 import Register from './components/pages/register/Register';
+import Rdr2 from './components/pages/PagesGames/Rdr2/Rdr2';
+//import PC from './components/computer/Pc';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,11 @@ const router = createBrowserRouter([
   {
     path: '/Register',
     element: <Register />,
+  },
+
+  {
+    path: '/game/1',
+    element: <Rdr2/>,
   },
 ]);
 

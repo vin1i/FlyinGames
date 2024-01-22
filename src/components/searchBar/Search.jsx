@@ -1,21 +1,26 @@
 import React, {useState} from 'react';
+//import { gamesPc } from '../computer/Data';
 import './search.css';
 
-function Search() {
+// eslint-disable-next-line react/prop-types
+function Search({ onSearch }) {
 
   const [searchValue, setSearchValue] = useState('');
-
-
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSearch(searchValue);
+  };
 
   return ( 
 
-    <form className="search__bar">
+    <form className="search__bar" onSubmit={handleSubmit}>
       <input 
         type="search"
         value={searchValue}
         placeholder="Buscar jogos"
         className="search__input"
-        onChange={({target}) => setSearchValue(target.value)}
+        onChange={(e) => setSearchValue(e.target.value)}
         required />
        
       { searchValue }

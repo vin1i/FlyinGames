@@ -32,14 +32,14 @@ function Header (){
             <li className="nav__item">
               <a href="#computer" className="nav__link">
                 <i className="bx bx-desktop nav__icon"></i>
-                Computador
+                Jogos
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#consoles" className="nav__link">
                 <i className="bx bx-joystick nav__icon"></i>
-                Consoles
+              Navegar
               </a>
             </li>
 

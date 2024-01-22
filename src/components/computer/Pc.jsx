@@ -1,20 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination } from 'swiper/modules';
-import { stars } from './Data';
+import { gamesPc } from './Data';
 import './pc.css';
 
 function PC  ()  {
+
+  
+
+
+
   return (
-    <section className="star section" id="computer">
+    <section className="pc section" id="computer">
       <h2 className="section__title">Games Pc</h2>
       <span className="section__subtitle">Jogos para Pc</span>
 
       <Swiper
-        className="star__container grid"
+        className="pc__container grid"
         grabCursor={true}
         loop={true}
         spaceBetween={10}
@@ -45,12 +51,14 @@ function PC  ()  {
         }}
         modules={[Pagination]}
       >
-        {stars.map(({ id, image, title, preço, categoria }) => (
-          <SwiperSlide className="star__card" key={id}>
-            <img src={image} alt="" className="star__img" />
-            <h3 className="star__name">{title}</h3>
-            <h5 className="star__price">{preço}</h5>
-            <p className="star__description">{categoria}</p>
+        {gamesPc.map(({ id, image, title, preço, categoria }) => (
+          <SwiperSlide className="pc__card" key={id}>
+            <Link to={`/game/${id}`}>
+              <img src={image} alt="" className="pc__img" />
+              <h3 className="pc__name">{title}</h3>
+              <h5 className="pc__price">{preço}</h5>
+              <p className="pc__description">{categoria}</p>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
