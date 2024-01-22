@@ -1,6 +1,27 @@
-.game__container{
-    width: 1050px;
-    right: 2.4rem;
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: var(--normal-font-size);
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game__img{
+    display: block;
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+    cursor: pointer;
 }
 
 
@@ -16,12 +37,6 @@
     
 }
 
-.game__img{
-    width: 840px;
-    border-radius: 1rem;
-    margin-bottom: var(--mb-1);
-    cursor: pointer;
-}
 
 .game__name{
     font-size: var(--normal-font-size);
@@ -46,76 +61,35 @@
 
 
 
-
 /*-------------------------------------------BREAKPOINTS-----------------------------------------*/
 
 
 
 /*For large devices*/
 
-@media screen and (max-width: 992px) {
-   .game_container{
-    width: initial;
+@media screen and (max-width:1400px) {
     
-    
-   }
 
-   .game__card{
-    padding: 1.25rem 1.5rem;
-
-   }
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+ 
     
-  }
+    .game__description,
+    .game__name{
+        font-size: var(--tiny-font-size);
+    }
+ 
+ 
+
+ }
 
 
    /*For medium devices*/
 
-
-   @media screen and (max-width: 885px) {
-    .game__container{
-    width: initial;
-      left: 0.1rem;
-     
-    }
- 
-    .game__card{
-     padding: 1.25rem 1.5rem;
- 
-    }
-     
-   }
- 
-
-   @media screen and (max-width: 835px) {
-
-    .game__container{
-        width: initial;
-      left: 0.2rem;
-    }
-
-     .game__card{
-    padding: 1.25rem 1.5rem;
-
-   }
-     
-   }
-
-
-
    
-   @media screen and (max-width: 576px) {
 
-    .game__container{
-        width: 300px;
-      left: -0.2px;
-    }
+   /*small devices*/
 
-     .game__card{
-    padding: 1.25rem 1.5rem;
-
-   }
-     
-   }
-
-  
    

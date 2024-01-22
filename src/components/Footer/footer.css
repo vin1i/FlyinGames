@@ -1,4 +1,12 @@
-.footer{
+.footer{/* width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+    width: 100%;
+    position: relative;
     background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
