@@ -6,7 +6,7 @@
   .swiper-slide {
     text-align: center;
     font-size: var(--normal-font-size);
-    background: #fff;
+    background:var(--container-color);
   
     /* Center slide text vertically */
     display: grid;

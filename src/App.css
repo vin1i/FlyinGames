@@ -142,6 +142,7 @@ img{
 
 .section{
   padding: 6rem 0 2rem;
+  
 }
 
 .section__title{
@@ -165,9 +166,11 @@ img{
 /*-------------------------------------------LAYOUT-----------------------------------------*/
 
 .container{
-  max-width: 968px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  margin: 0 auto;
+  
 }
 
 .grid{

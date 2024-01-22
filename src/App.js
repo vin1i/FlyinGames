@@ -6,7 +6,7 @@ import PC from './components/computer/Pc';
 import Footer from './components/Footer/Footer';
 //import { BrowserRouter } from 'react-router-dom';
 
-const App = () => {
+function App  ()  {
   return (
     <>
       <Header />
@@ -19,6 +19,6 @@ const App = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default App;

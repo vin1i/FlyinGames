@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import Search from '../searchBar/Search';
+import Cart from '../Cartbutton/Cart';
 import './header.css';
 
-const Header = () => {
+function Header (){
   /*-------------------------------------------Toggle Menu-----------------------------------------*/
   const [Toggle, showMenu] = useState(false);
   /*-------------------------------------------Toggle Menu-----------------------------------------*/
@@ -9,9 +11,14 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
+
+      
+
         <a href="index.html" className="nav__logo">
           Logo
         </a>
+
+
 
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className="nav__list grid">
@@ -44,6 +51,8 @@ const Header = () => {
             </li>
           </ul>
 
+        
+
           <i
             className="uil uil-times nav__close"
             onClick={() => showMenu(!Toggle)}
@@ -54,12 +63,13 @@ const Header = () => {
           <i className="uil uil-apps"></i>
         </div>
 
-        <a href="#cart" className="nav__cart">
-          <i className="bx bx-cart nav__cart"></i>
-        </a>
+        <Search/>
+        <Cart/>
+       
       </nav>
+      
     </header>
   );
-};
+}
 
 export default Header;

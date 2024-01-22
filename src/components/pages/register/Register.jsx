@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './register.css';
 import Logo from '../../../assets/Logo_temporária (2).jpg';
 
-const Register = () => {
+function Register () {
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
@@ -67,6 +68,6 @@ const Register = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Register;

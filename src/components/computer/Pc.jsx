@@ -7,7 +7,7 @@ import { Pagination } from 'swiper/modules';
 import { stars } from './Data';
 import './pc.css';
 
-const PC = () => {
+function PC  ()  {
   return (
     <section className="star section" id="computer">
       <h2 className="section__title">Games Pc</h2>
@@ -56,6 +56,6 @@ const PC = () => {
       </Swiper>
     </section>
   );
-};
+}
 
 export default PC;

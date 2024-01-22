@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
-const Stars = () => {
+function Stars  () {
   return (
     <section className="game container section" id="stars">
       <h2 className="section__title">Destaques</h2>
@@ -54,6 +54,6 @@ const Stars = () => {
       </Swiper>
     </section>
   );
-};
+}
 
 export default Stars;

@@ -44,15 +44,8 @@
 .nav__logo:hover{
     color:  var(--main-color) ;
 }
-.nav__cart{
-    font-size: 1.6rem;
-    color: var(--title-color);
-}
 
-.nav__cart:hover{
-    color: var(--main-color);
 
-}
 
 
 

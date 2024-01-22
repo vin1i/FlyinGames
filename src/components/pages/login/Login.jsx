@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './login.css';
 import Logo from '../../../assets/Logo_temporária (2).jpg';
 
-const Login = () => {
+function Login  ()  {
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -56,6 +57,6 @@ const Login = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Login;
