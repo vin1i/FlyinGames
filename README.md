@@ -28,6 +28,9 @@ O ViniPlay visa criar uma plataforma de comércio eletrônico especializada em j
  Telas Informativas:
         Cada jogo terá uma tela dedicada que oferecerá informações detalhadas, como descrição, preço e categoria.
 
+ Telas de Login e Registro:
+        Implementação de telas dedicadas para permitir que os usuários realizem login e registro, garantindo uma experiência personalizada.
+        
 ## Próximos Passos:
 
  Finalização do Frontend:
