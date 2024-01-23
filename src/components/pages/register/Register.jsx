@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './register.css';
-import Logo from '../../../assets/Logo_temporária (2).jpg';
+import Logo from '../../../assets/Logo/Flying.png';
 
 function Register () {
 
