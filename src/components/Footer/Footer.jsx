@@ -28,16 +28,16 @@ function Footer  () {
         </ul>
 
         <div className="footer__social">
-          <a href="#" className="footer__social-icon">
-            <i className="bx bxl-instagram"></i>
+          <a href="https://www.linkedin.com/in/mvini21/" className="footer__social-icon" target="_blank" rel="noreferrer">
+            <i className="bx bxl-linkedin"></i>
           </a>
 
-          <a href="#" className="footer__social-icon">
-            <i className="bx bxl-whatsapp"></i>
+          <a href="https://github.com/vin1i" className="footer__social-icon" target="_blank" rel="noreferrer">
+            <i className="bx bxl-github"></i>
           </a>
 
-          <a href="#" className="footer__social-icon">
-            <i className="bx bxl-facebook"></i>
+          <a href="mailto:marcosvinijobs342@outlook.com"  className="footer__social-icon" target="_blank" rel="noreferrer">
+            <i className="bx bx-envelope"></i>
           </a>
         </div>
 
