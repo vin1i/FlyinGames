@@ -1,9 +1,9 @@
-## Documentação do Projeto - ViniPlay
+## Documentação do Projeto - FlyinGames
 
 
 ## Status do Projeto: Em Andamento
 
-O projeto ViniPlay encontra-se em fase de desenvolvimento, com esforços contínuos para criar uma plataforma envolvente e funcional para venda de jogos online. Esta documentação oferece uma visão geral do projeto, suas tecnologias principais e funcionalidades planejadas.
+O projeto FlyinGamesencontra-se em fase de desenvolvimento, com esforços contínuos para criar uma plataforma envolvente e funcional para venda de jogos online. Esta documentação oferece uma visão geral do projeto, suas tecnologias principais e funcionalidades planejadas.
 
 ## Tecnologias Utilizadas:
 
@@ -17,7 +17,7 @@ O projeto ViniPlay encontra-se em fase de desenvolvimento, com esforços contín
 
 ## Objetivo do Projeto:
 
-O ViniPlay visa criar uma plataforma de comércio eletrônico especializada em jogos online. Destacam-se algumas das funcionalidades-chave planejadas:
+O FlyinGamesvisa criar uma plataforma de comércio eletrônico especializada em jogos online. Destacam-se algumas das funcionalidades-chave planejadas:
 
  Carrinho de Compras:
         Implementação de um sistema de carrinho de compras para facilitar a seleção e a compra de jogos.
@@ -49,6 +49,7 @@ O ViniPlay visa criar uma plataforma de comércio eletrônico especializada em j
  Obrigado por acompanhar o progresso!
 
 ## Link do Projeto
- [ViniPlay - Acesse aqui para ver o protótipo](https://viniplay.vercel.app/)
+ [FlyinGames
+- Acesse aqui para ver o protótipo](https://flyingames.vercel.app/)
 
 **Nota:** Este projeto é um protótipo em desenvolvimento. Trata-se de um trabalho pessoal, e as funcionalidades apresentadas são destinadas apenas para demonstração e exposição de habilidades.
