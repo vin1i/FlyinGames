@@ -9,9 +9,9 @@ O projeto ViniPlay encontra-se em fase de desenvolvimento, com esforços contín
 
  React.js: A estrutura principal para o desenvolvimento da interface do usuário, proporcionando uma experiência interativa e responsiva.
 
-  JavaScript: A linguagem de programação central para a lógica do lado do cliente, permitindo operações dinâmicas e interativas.
+ JavaScript: A linguagem de programação central para a lógica do lado do cliente, permitindo operações dinâmicas e interativas.
 
- HTML e CSS: Utilizados para estruturação e estilo, garantindo uma apresentação visual atraente e amigável.
+ HTML e CSS: Utilizados para estruturação e estilo, garantindo uma apresentação visual atraente.
 
  Bibliotecas Adicionais: Algumas bibliotecas específicas estão sendo incorporadas para melhorar a funcionalidade e o design, contribuindo para uma experiência de usuário aprimorada.
 
@@ -36,14 +36,19 @@ O ViniPlay visa criar uma plataforma de comércio eletrônico especializada em j
  Finalização do Frontend:
         Conclusão do design e da funcionalidade da interface do usuário.
 
-Integração do Backend:
+ Integração do Backend:
         Desenvolvimento e integração do backend para lidar com transações, armazenamento de dados e gerenciamento do catálogo de jogos.
 
-Testes e Ajustes:
+ Testes e Ajustes:
         Realização de testes abrangentes para garantir desempenho, segurança e experiência do usuário.
 
 ## Contribuições:
 
-Contribuições para o projeto são bem-vindas. Sinta-se à vontade para sugerir melhorias, relatar problemas ou participar do desenvolvimento.
+ Contribuições para o projeto são bem-vindas. Sinta-se à vontade para sugerir melhorias, relatar problemas ou participar do desenvolvimento.
 
-Obrigado por acompanhar o progresso do ViniPlay! Em breve, ofereceremos uma experiência completa de compra de jogos online.
+ Obrigado por acompanhar o progresso!
+
+## Link do Projeto
+ [ViniPlay - Acesse aqui para ver o protótipo](https://viniplay.vercel.app/)
+
+**Nota:** Este projeto é um protótipo em desenvolvimento. Trata-se de um trabalho pessoal, e as funcionalidades apresentadas são destinadas apenas para demonstração e exposição de habilidades.
