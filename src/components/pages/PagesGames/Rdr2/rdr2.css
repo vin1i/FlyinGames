@@ -4,15 +4,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 8rem;
   background-color: var(--container-color);
 }
 
-.section__title {
+.details__title {
   
 }
 
-.section__subtitle {
+.details__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
@@ -41,7 +41,7 @@
 /* Estilos da caixa de detalhes */
 .box__details {
 display: grid;
-  grid-template-columns: subgrid;
+ 
   width: 80%;
   text-align: start;
   background-color: var(--container-color);

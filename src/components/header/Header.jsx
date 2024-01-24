@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import Search from '../searchBar/Search';
 import Cart from '../Cartbutton/Cart';
 import './header.css';
@@ -23,7 +24,7 @@ function Header (){
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#stars" className="nav__link">
+              <a href= "#stars" className="nav__link">
                 <i className="bx bx-star nav__icon_star"></i>
                 Destaques
               </a>
@@ -44,10 +45,10 @@ function Header (){
             </li>
 
             <li className="nav__item">
-              <a href="login" className="nav__link active-link">
+              <Link to="/login" className="nav__link active-link">
                 <i className="bx bx-user nav__icon"></i>
                 Login
-              </a>
+              </Link>
             </li>
           </ul>
 

@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../../assets/Logo/Flying.png';
 import './footer.css';
 
 function Footer  () {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">LOGO</h1>
+        <img src={Logo} alt="" className="logo__img"/>
 
         <ul className="footer__list">
           <li>
@@ -42,7 +43,7 @@ function Footer  () {
         </div>
 
         <span className="footer__copy">
-          E-commerce &copy; 2024. Todos os direitos reservados.
+        &#169;2024 All Rights Reserved. Made with 💜 by Vini Matos
         </span>
       </div>
     </footer>

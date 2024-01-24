@@ -9,8 +9,18 @@
 
 .footer__container{
     padding: 2rem 0 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Isso garante que o conteúdo dentro do container siga um layout de cima para baixo */
+    
 }
-
+.logo__img{
+    align-items: center;
+    margin-bottom: var(--mb-1);
+    margin-right: 2.8rem;
+    width: 150px;
+}
 
 .footer__title,
 .footer__link{
@@ -18,8 +28,7 @@
 }
 
 .footer__title{
-    text-align: center;
-    margin-bottom: var(--mb-2);
+   
 }
 
 
