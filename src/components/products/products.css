@@ -68,7 +68,7 @@ transition: transform 0.3s, background-color 0.3s;
 .section__card:hover{
   /* Adicionei um efeito de transformação para o hover */
   transform: scale(1.1);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 
 /* Adicionei um efeito de mudança de cor para o hover do botão */

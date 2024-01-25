@@ -6,7 +6,7 @@ import './products.css';
 export const Products = (props) => {
   
   
-  return (<section className="section__card" id="descobrir">
+  return (<section className="section__card">
     
     <div className="card__container grid">
       <img src={props.data.image} 

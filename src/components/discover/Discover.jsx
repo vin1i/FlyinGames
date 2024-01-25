@@ -5,7 +5,7 @@ import './discover.css';
 
 function DiscoverCard() {
   return ( 
-    <section className="discover__section">
+    <section className="discover__section"  id="descobrir">
       <div className="section__title-container">
         <h2 className="section__title">Descubra</h2>
         <span className="section__subtitle">Navegue pelos seus favoritos</span>
