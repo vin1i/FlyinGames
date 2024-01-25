@@ -5,12 +5,19 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './components/pages/login/Login';
 import Register from './components/pages/register/Register';
 import Rdr2 from './components/pages/PagesGames/Rdr2/Rdr2';
+import ErrorPage from './components/Routes/ErrorPage';
+import Stars from './components/home/Home';
 //import PC from './components/computer/Pc';
 
 const router = createBrowserRouter([
   {
     path: '/',
+    errorElement: <ErrorPage/>,
     element: <App />,
+  },
+  {
+    path: '/Destaques',
+    element: <Stars />,
   },
   {
     path: '/Home',
@@ -36,5 +43,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
+  
   </React.StrictMode>
 );

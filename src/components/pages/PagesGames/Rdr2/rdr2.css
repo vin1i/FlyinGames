@@ -43,10 +43,10 @@
 display: grid;
  
   width: 80%;
-  text-align: start;
+  
   background-color: var(--container-color);
   border: 1px solid var(--main-color);
-  justify-content: center;
+ 
   border-radius: 1.5rem;
   margin-bottom: var(--mb-2);
   padding: 1rem;

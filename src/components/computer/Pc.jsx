@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination } from 'swiper/modules';
-import { gamesPc } from './Data';
+import { gamesPc } from '../../games';
 import './pc.css';
 
 function PC  ()  {
@@ -51,13 +51,13 @@ function PC  ()  {
         }}
         modules={[Pagination]}
       >
-        {gamesPc.map(({ id, image, title, preço, categoria }) => (
+        {gamesPc.map(({ id, image, title, price, genre }) => (
           <SwiperSlide className="pc__card" key={id}>
             <Link to={`/game/${id}`}>
               <img src={image} alt="" className="pc__img" />
               <h3 className="pc__name">{title}</h3>
-              <h5 className="pc__price">{preço}</h5>
-              <p className="pc__description">{categoria}</p>
+              <h5 className="pc__price">{price}</h5>
+              <p className="pc__description">{genre}</p>
             </Link>
           </SwiperSlide>
         ))}

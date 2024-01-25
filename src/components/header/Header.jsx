@@ -15,7 +15,7 @@ function Header (){
 
       
 
-        <a href="index.html" className="nav__logo">
+        <a href="/" className="nav__logo">
           Logo
         </a>
 
@@ -38,9 +38,9 @@ function Header (){
             </li>
 
             <li className="nav__item">
-              <a href="#consoles" className="nav__link">
+              <a href="#descobrir" className="nav__link">
                 <i className="bx bx-joystick nav__icon"></i>
-              Navegar
+                Descobrir
               </a>
             </li>
 
