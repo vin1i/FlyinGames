@@ -23,7 +23,7 @@ O FlyinGames visa criar uma plataforma de comércio eletrônico especializada em
         Implementação de um sistema de carrinho de compras para facilitar a seleção e a compra de jogos.
 
  Busca de Jogos:
-        Uma função de busca robusta para permitir aos usuários encontrar facilmente os jogos desejados no vasto catálogo.
+        Uma função de busca robusta para permitir aos usuários encontrar facilmente os jogos desejados no catálogo.
 
  Telas Informativas:
         Cada jogo terá uma tela dedicada que oferecerá informações detalhadas, como descrição, preço e categoria.
