@@ -17,7 +17,7 @@ O projeto FlyinGames encontra-se em fase de desenvolvimento, com esforços cont�
 
 ## Objetivo do Projeto:
 
-O FlyinGamesvisa criar uma plataforma de comércio eletrônico especializada em jogos online. Destacam-se algumas das funcionalidades-chave planejadas:
+O FlyinGames visa criar uma plataforma de comércio eletrônico especializada em jogos online. Destacam-se algumas das funcionalidades-chave planejadas:
 
  Carrinho de Compras:
         Implementação de um sistema de carrinho de compras para facilitar a seleção e a compra de jogos.
