@@ -3,7 +3,7 @@
 
 ## Status do Projeto: Em Andamento
 
-O projeto FlyinGames encontra-se em fase de desenvolvimento, com esforços contínuos para criar uma plataforma envolvente e funcional para venda de jogos online. Esta documentação oferece uma visão geral do projeto, suas tecnologias principais e funcionalidades planejadas.
+O projeto FlyinGames encontra-se em fase de desenvolvimento, para criar uma plataforma envolvente e funcional para venda de jogos online. Esta documentação oferece uma visão geral do projeto, suas tecnologias principais e funcionalidades planejadas.
 
 ## Tecnologias Utilizadas:
 
