@@ -37,7 +37,7 @@ O FlyinGames visa criar uma plataforma de comércio eletrônico especializada em
         Conclusão do design e da funcionalidade da interface do usuário.
 
  Integração do Backend:
-        Desenvolvimento e integração do backend para lidar com transações, armazenamento de dados e gerenciamento do catálogo de jogos.
+        Desenvolvimento e integração do backend para lidar armazenamento de dados e gerenciamento do catálogo de jogos.
 
  Testes e Ajustes:
         Realização de testes abrangentes para garantir desempenho, segurança e experiência do usuário.
