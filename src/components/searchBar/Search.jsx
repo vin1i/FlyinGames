@@ -13,6 +13,7 @@ function Search() {
 
     // Redirecione para a página de resultados da pesquisa com base no termo
     navigate(`/search/${searchValue.toLowerCase()}`);
+    setSearchValue(''); // Limpa a barra de busca
   };
 
   return (

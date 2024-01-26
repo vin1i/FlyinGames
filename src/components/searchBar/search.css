@@ -37,3 +37,20 @@
   
   color: var(--main-color);
 }
+
+.loading-search__icon{
+  color: var(--main-color);
+
+  animation: spin 1s infinite linear;/* Isso garante que o spinner esteja centralizado verticalmente na tela */
+
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -4,7 +4,6 @@ import Loading from '../loading/Loading';
 import Header from '../header/Header';
 import Footer from '../Footer/Footer';
 import './searchresults.css';
-import PropTypes from 'prop-types';
 import { gamesPc } from '../../api/games';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Products } from '../products/Products';
@@ -26,7 +25,7 @@ function SearchResults() {
         const results = gamesPc.filter((game) =>
           game.title.toLowerCase().includes(searchTerm)
         );
-
+        await new Promise(resolve => setTimeout(resolve, 1000));
         if (results.length === 0) {
           setNotFound(true);
         } else {
@@ -85,10 +84,5 @@ function SearchResults() {
   );
 }
 
-SearchResults.propTypes = {
-  params: PropTypes.shape({
-    term: PropTypes.string.isRequired,
-  }).isRequired,
-};
 
 export default SearchResults;
