@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './products.css';
 
 
+
 export const Products = (props) => {
   
   
@@ -12,7 +13,7 @@ export const Products = (props) => {
       <img src={props.data.image} 
         alt="product"
         className="card__image"  />
-
+        
       <div className="card__infos">
         <h2 className="card__name">{props.data.title}</h2>
 

@@ -1,4 +1,6 @@
-
+.logo1{
+    width: 65px;
+}
 .header{
     width: 100%;
     position: fixed;
@@ -91,7 +93,7 @@
 
 /*-------------------------------------------BREAKPOINTS-----------------------------------------*/
 /*For medium devices*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   
   
  

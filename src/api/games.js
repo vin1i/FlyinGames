@@ -1,17 +1,17 @@
-import Image1 from './assets/RDR2.jpg';
-import Image2 from './assets/Fallout4.png';
-import Image3 from './assets/mafia3.jpg';
-import Image4 from './assets/Hitman.jpg';
-import Image5 from './assets/Re4.jpg';
-import Image6 from './assets/ACMirage.jpg';
-import Image7 from './assets/AlanWake.jpg';
-import Image8 from './assets/fallout-76.jpg';
-import Image9 from './assets/fARCRY6.jpg';
-import Image10 from './assets/GTAV.jpg';
-import Image11 from './assets/Baldursgate.jpg';
-import Image12 from './assets/Sleeping Dogs.jpg';
-import Image13 from './assets/SpiderMan.jpg';
-import Image14 from './assets/SpiderMan2.jpg';
+import Image1 from '../assets/RDR2.jpg';
+import Image2 from '../assets/Fallout4.png';
+import Image3 from '../assets/mafia3.jpg';
+import Image4 from '../assets/Hitman.jpg';
+import Image5 from '../assets/Re4.jpg';
+import Image6 from '../assets/ACMirage.jpg';
+import Image7 from '../assets/AlanWake.jpg';
+import Image8 from '../assets/fallout-76.jpg';
+import Image9 from '../assets/fARCRY6.jpg';
+import Image10 from '../assets/GTAV.jpg';
+import Image11 from '../assets/Baldursgate.jpg';
+import Image12 from '../assets/Sleeping Dogs.jpg';
+import Image13 from '../assets/SpiderMan.jpg';
+import Image14 from '../assets/SpiderMan2.jpg';
 
 
 
@@ -48,7 +48,7 @@ export const gamesPc  = [
   {
     id: 5,
     image: Image5,
-    title: 'RE 4 Remake',
+    title: 'Resident Evil 4 Remake',
     price: 'R$220 ',
     genre: 'Ação | Terror',
   },

@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination } from 'swiper/modules';
-import { gamesPc } from '../../games';
+import { gamesPc } from '../../api/games';
 import './pc.css';
 
 function PC  ()  {
@@ -16,8 +16,8 @@ function PC  ()  {
 
   return (
     <section className="pc section" id="computer">
-      <h2 className="section__title">Games Pc</h2>
-      <span className="section__subtitle">Jogos para Pc</span>
+      <h2 className="section__title">Novidades</h2>
+      <span className="section__subtitle">Lançamentos</span>
 
       <Swiper
         className="pc__container grid"

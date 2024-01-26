@@ -1,0 +1,117 @@
+/* search.css */
+.results__container{
+   max-width: 2100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  
+}
+.container__title-notfound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ margin: 28rem;
+}
+.container__title{
+  margin-top: 80px;
+}
+
+
+.search-results {
+  padding: 12px 0 60px;
+  padding-right:2rem ;
+   margin: 2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   gap: 20px;
+}
+
+.search-result-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-result-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-result-item .card__info {
+  padding: 16px;
+}
+
+.search-result-item .card__name {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.search-result-item .card__price {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.button__back-arrow {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 45px;
+  height: 45px;
+  margin: 12px 15px;
+  color: var(--container-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--main-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.1s;
+  z-index: 999;
+}
+
+
+.button__back-arrow:hover{
+  
+  transform: scale(1.2);
+  background-color: var(--main-color);
+  color: white;
+}
+
+.button__back-arrow i {
+  line-height: 45px;
+  margin: 0;
+}         
+
+
+
+
+/*-------------------------------------------BREAKPOINTS-----------------------------------------*/
+
+
+
+/*For large devices*/
+
+@media screen and (max-width: 992px) {
+ 
+  .container__title-notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Adiciona altura de 100% da altura da tela para centralizar verticalmente */
+    margin: 0; /* Remove a margem anterior */
+  }
+  
+}
+
+
+
+

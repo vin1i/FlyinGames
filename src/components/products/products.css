@@ -1,4 +1,5 @@
 .section__card{
+  position: relative;
   width: 100%;
  max-width: 350px;
   background-color: var(--container-color);
@@ -9,12 +10,11 @@
   cursor: pointer;
   padding: 1rem;
   margin: 1rem;
-  /* Adicionei um efeito de transição para o hover */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card__image{
-  width: 100%; /* Ajustei a largura para 100% */
+  width: 100%; 
   border-radius: 1rem;
 }
 
@@ -46,13 +46,13 @@
 
 .button__add-cart{
 position: absolute;
-top: 0; /* Ajustei a posição para o topo */
-right: 0; /* Ajustei a posição para a direita */
+top: 0; 
+right: 0; 
 width: 45px;
 height: 45px;
-margin: 12px 15px;
+margin: 15px 15px;
 color: var(--main-color);
-display: flex;
+display: none;
 align-items: center;
 justify-content: center;
 border: none;
@@ -60,24 +60,29 @@ border-radius: 50px;
 background-color: rgba(0, 0, 0, 0.5);
 font-size: 1.5rem;
 cursor: pointer;
-/* Adicionei um efeito de transição para o hover */
-transition: transform 0.3s, background-color 0.3s;
+transition: transform 0.2s, background-color 0.2s;
 }
 
 
+/*Efeito de mudança de botão*/
 .section__card:hover{
-  /* Adicionei um efeito de transformação para o hover */
   transform: scale(1.1);
   box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 
-/* Adicionei um efeito de mudança de cor para o hover do botão */
+.section__card:hover .button__add-cart{
+  display: flex;
+  
+}
+
+
 .button__add-cart:hover{
+  
   transform: scale(1.2);
   background-color: var(--main-color);
   color: white;
 }
-
+/*Efeito de mudança de botão*/
 /*-------------------------------------------BREAKPOINTS-----------------------------------------*/
 
 
