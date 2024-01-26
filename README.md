@@ -3,7 +3,7 @@
 
 ## Status do Projeto: Em Andamento
 
-O projeto FlyinGamesencontra-se em fase de desenvolvimento, com esforços contínuos para criar uma plataforma envolvente e funcional para venda de jogos online. Esta documentação oferece uma visão geral do projeto, suas tecnologias principais e funcionalidades planejadas.
+O projeto FlyinGames encontra-se em fase de desenvolvimento, com esforços contínuos para criar uma plataforma envolvente e funcional para venda de jogos online. Esta documentação oferece uma visão geral do projeto, suas tecnologias principais e funcionalidades planejadas.
 
 ## Tecnologias Utilizadas:
 
@@ -17,13 +17,13 @@ O projeto FlyinGamesencontra-se em fase de desenvolvimento, com esforços contí
 
 ## Objetivo do Projeto:
 
-O FlyinGamesvisa criar uma plataforma de comércio eletrônico especializada em jogos online. Destacam-se algumas das funcionalidades-chave planejadas:
+O FlyinGames visa criar uma plataforma de comércio eletrônico especializada em jogos online. Destacam-se algumas das funcionalidades-chave planejadas:
 
  Carrinho de Compras:
         Implementação de um sistema de carrinho de compras para facilitar a seleção e a compra de jogos.
 
  Busca de Jogos:
-        Uma função de busca robusta para permitir aos usuários encontrar facilmente os jogos desejados no vasto catálogo.
+        Uma função de busca robusta para permitir aos usuários encontrar facilmente os jogos desejados no catálogo.
 
  Telas Informativas:
         Cada jogo terá uma tela dedicada que oferecerá informações detalhadas, como descrição, preço e categoria.
@@ -37,7 +37,7 @@ O FlyinGamesvisa criar uma plataforma de comércio eletrônico especializada em 
         Conclusão do design e da funcionalidade da interface do usuário.
 
  Integração do Backend:
-        Desenvolvimento e integração do backend para lidar com transações, armazenamento de dados e gerenciamento do catálogo de jogos.
+        Desenvolvimento e integração do backend para lidar armazenamento de dados e gerenciamento do catálogo de jogos.
 
  Testes e Ajustes:
         Realização de testes abrangentes para garantir desempenho, segurança e experiência do usuário.
