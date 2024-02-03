@@ -8,6 +8,7 @@ import Rdr2 from './components/pages/PagesGames/Rdr2/Rdr2';
 import ErrorPage from './components/Routes/ErrorPage';
 import Stars from './components/home/Home';
 import SearchResults from './components/searchBar/SearchResults';
+import Cart from './components/cart/CartPage.jsx';
 //import PC from './components/computer/Pc';
 
 const router = createBrowserRouter([
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
     path: '/search/:term',
     element: <SearchResults/>,
   },
+
+  {
+    path: '/Cart',
+    element: <Cart/>,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

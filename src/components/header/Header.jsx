@@ -66,7 +66,7 @@ function Header (){
         </div>
 
         <Search/>
-        <Cart/>
+        <Cart />
        
       </nav>
       

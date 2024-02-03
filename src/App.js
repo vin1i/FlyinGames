@@ -5,23 +5,23 @@ import Home from './components/home/Home';
 import PC from './components/computer/Pc';
 import Footer from './components/Footer/Footer';
 import DiscoverCard from './components/discover/Discover.jsx';
+import { CartProvider } from './components/context/AppContext.js';
 
 
 function App  ()  {
   return (
-    <>
-      <Header />
-
-      <main className="main">
-        <Home />
-        <PC />
+    <CartProvider>
+      <>
+        <Header />
+        <main className="main">
+          <Home />
+          <PC />
+          <DiscoverCard />
       
-        <DiscoverCard/>
-        
-      </main>
-   
-      <Footer />
-    </>
+        </main>
+        <Footer />
+      </>
+    </CartProvider>
   );
 }
 

@@ -11,13 +11,13 @@ function Footer  () {
         <ul className="footer__list">
           <li>
             <a href="#" className="footer__link">
-              Blog
+            Vini.dev
             </a>
           </li>
 
           <li>
             <a href="#" className="footer__link">
-              Sobre nós
+              Sobre mim
             </a>
           </li>
 
