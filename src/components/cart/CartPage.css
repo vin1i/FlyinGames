@@ -1,0 +1,71 @@
+
+
+.section__cart{
+ padding: 100px 20px 20px 0 ;
+ zoom: 90%;
+}
+
+.cart-empty{
+ text-align: center;
+ font-size: var(--h1-font-size);
+  padding:160px ;
+  width: 100%;
+  height: 50vh;
+}
+
+.cartItems {
+  padding: 12px 0 60px;
+  padding-right:2rem ;
+   margin: 2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 20px;
+}
+
+/* Restante do seu código CSS continua aqui... */
+
+
+.container__checkout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container__checkout button{
+  padding: 15px 30px;
+  font-weight: 500;
+ border: none;
+ border-radius: 50px;
+ background: none;
+ cursor: pointer; 
+ transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.container__checkout button:hover{
+color: var(--main-color);
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: var(--body-color);
+ }
+ 
+
+/*-------------------------------------------BREAKPOINTS-----------------------------------------*/
+
+
+
+/*For large devices*/
+
+@media screen and (max-width: 992px) {
+  .cart-empty{
+    text-align: center;
+    font-size: var(--h1-font-size);
+     padding:90px ;
+     width: 100%;
+   }
+   
+   .section__cart{
+    padding: 0;
+    zoom: 100%;
+   }
+   
+}

@@ -5,23 +5,30 @@ import Home from './components/home/Home';
 import PC from './components/computer/Pc';
 import Footer from './components/Footer/Footer';
 import DiscoverCard from './components/discover/Discover.jsx';
-import { CartProvider } from './components/context/AppContext.js';
+//import { ShopContextProvider } from './components/context/shop-context.jsx';
+
 
 
 function App  ()  {
   return (
-    <CartProvider>
-      <>
-        <Header />
-        <main className="main">
-          <Home />
-          <PC />
-          <DiscoverCard />
-      
-        </main>
-        <Footer />
-      </>
-    </CartProvider>
+   
+    <>
+    
+      <Header />
+      <main className="main">
+
+       
+
+        <Home />
+        <PC />
+        <DiscoverCard />
+
+       
+        
+      </main>
+      <Footer />
+    </>
+   
   );
 }
 

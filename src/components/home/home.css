@@ -87,7 +87,16 @@
 
 
    /*For medium devices*/
+ @media screen and (max-width:768px){
 
+  .game__img{
+  
+    height: 95%;
+
+}
+
+  
+ }
    
 
    /*small devices*/

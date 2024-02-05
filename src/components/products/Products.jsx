@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ShopContext } from '../context/shop-context';
 import PropTypes from 'prop-types';
 import './products.css';
 
 
 
 export const Products = (props) => {
+
+  const{id} = props.data;
+  const {addToCart, cartItems} = useContext(ShopContext);
   
-  
+  const cartItemsAmount = cartItems[id];
   return (<section className="section__card">
     
     <div className="card__container grid">
@@ -18,12 +22,22 @@ export const Products = (props) => {
         <h2 className="card__name">{props.data.title}</h2>
 
         <h2 className="card__price">{props.data.price}</h2>
+
+        <h2 className="card__genre">{props.data.genre}</h2>
       </div>
     </div>
-    <button type="button" className="button__add-cart">
-      <i className="bx bx-cart"></i>
+    <button type="button" className="button__add-cart" onClick={() => addToCart(id)}>
+
+      {cartItemsAmount > 0 && (
+        <span className="cart-item-count">
+          {cartItemsAmount <= 9 ? cartItemsAmount : '9+' }
+        </span> 
+      )}
+        
+      <i className="bx bx-cart"></i> 
     </button>
-  </section>);
+  </section>
+  );
 };
 
 Products.propTypes = {

@@ -1,6 +1,8 @@
-.logo1{
-    width: 65px;
+.logo1 {
+  width: 65px;
+  margin: 0; /* Adicionado para remover a margem */
 }
+
 .header{
     width: 100%;
     position: fixed;
@@ -24,28 +26,17 @@
     color: var(--main-color);
 }
 
-.nav__logo,
+
 .nav__toggle {
 
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
-.nav__logo{
-    font-weight: var(--font-semi-bold);
-    
-    
-}
 
 .nav__login{
     font-weight: var(--font-semi-bold);
     background: none;
-}
-
-
-
-.nav__logo:hover{
-    color:  var(--main-color) ;
 }
 
 
@@ -93,17 +84,35 @@
 
 /*-------------------------------------------BREAKPOINTS-----------------------------------------*/
 /*For medium devices*/
+
+/*For medium devices*/
+@media screen and (min-width: 992px){
+  
+  
+ 
+    .nav__cart-item{
+       display: none;
+    }
+
+    
+}
+
+
 @media screen and (max-width: 992px){
   
-  
+    .logo1{
+        display: none;
+      }
  
     .header{
         top: initial;
         bottom: 0;
+       
     }
 
     .nav{
-        height: var(--header-height);
+        height: var(--header-height); 
+        padding: 2rem;
     }
 
     .nav__menu{
@@ -115,7 +124,7 @@
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
+        transition: .3s; 
     }
 
     /*Show Menu*/
@@ -131,8 +140,10 @@
 
     }
     .nav__icon_star,
+    .nav__cart-icon,
     .nav__icon{
         font-size: 1.2rem;
+        
     }
 
    
@@ -154,13 +165,15 @@
 
     .nav__toggle{
         font-size: 1.1rem;
-        cursor: pointer;
+        cursor: pointer; 
+        gap: 1rem;
     }
 
 
 
     .nav__icon_star,
     .nav__icon,
+    .nav__cart-icon,
     .nav__close,
     .nav__toggle {
         display: block;

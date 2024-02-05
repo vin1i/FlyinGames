@@ -15,7 +15,7 @@ function Header (){
       <nav className="nav container">
 
      
-        <a href="/">
+        <a href="/home">
           <img src={Logo1} alt="" className="logo1" />
          
         </a>
@@ -51,6 +51,15 @@ function Header (){
                 Login
               </Link>
             </li>
+
+
+            <li className="nav__cart-item">
+              <Link to="/Cart" className="nav__link">
+                <i className="uil uil-shopping-cart nav__cart-icon"></i>
+                Carrinho
+              </Link>
+            </li>
+            
           </ul>
 
         

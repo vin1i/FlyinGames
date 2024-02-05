@@ -10,7 +10,7 @@
   cursor: pointer;
   padding: 1rem;
   margin: 1rem;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.2s;
 }
 
 .card__image{
@@ -24,6 +24,12 @@
   
 }
 
+.card__genre{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+}
 
 .card__price{
   font-size: var(--normal-font-size);
@@ -60,13 +66,28 @@ border-radius: 50px;
 background-color: rgba(0, 0, 0, 0.5);
 font-size: 1.5rem;
 cursor: pointer;
-transition: transform 0.2s, background-color 0.2s;
+transition: transform 0.1s, background-color 0.1s;
 }
 
+.cart-item-count{
+  background-color: var(--main-color);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--body-color);
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*Efeito de mudança de botão*/
 .section__card:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 
@@ -78,7 +99,7 @@ transition: transform 0.2s, background-color 0.2s;
 
 .button__add-cart:hover{
   
-  transform: scale(1.2);
+  transform: scale(1.1);
   background-color: var(--main-color);
   color: white;
 }
@@ -90,13 +111,92 @@ transition: transform 0.2s, background-color 0.2s;
 /*For large devices*/
 @media screen and (max-width:1400px) {
   
-
+  .section__card{
+    
+    width: 100%;
+    left: 1rem;
+   
+    
+  }
   .card__price,
   .card__description,
   .card__name{
       font-size: var(--tiny-font-size);
   }
 
+  
 
+}
+
+
+
+
+/*For large devices*/
+@media screen and (max-width:400px) {
+  
+
+ 
+  .section__card{
+    
+    width: 90%;
+   
+    
+  }
+
+}
+
+/*For medium devices*/
+@media screen and (max-width:400px) {
+  
+
+ 
+  .section__card{
+    
+    width: 99%;
+   
+    
+  }
+
+}
+
+/*For small devices*/
+
+@media screen and (max-width:375px) {
+  
+
+ 
+  .section__card{
+    
+    width: 94%;
+   
+    
+  }
+
+}
+
+
+@media screen and (max-width:360px) {
+  
+
+ 
+  .section__card{
+    
+    width: 78%;
+   
+    
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  
+
+ 
+  .section__card{
+    
+    width: 76%;
+   
+    
+  }
 
 }

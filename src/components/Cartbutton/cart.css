@@ -33,3 +33,21 @@
   color: var(--main-color);
 
 }
+
+
+/*-------------------------------------------BREAKPOINTS-----------------------------------------*/
+
+
+
+/*For large devices*/
+@media screen and (max-width:992px) {
+  
+  .cart__button{
+    display: none;
+    
+    
+  }
+
+  
+
+}

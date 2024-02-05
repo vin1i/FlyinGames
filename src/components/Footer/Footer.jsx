@@ -10,7 +10,7 @@ function Footer  () {
 
         <ul className="footer__list">
           <li>
-            <a href="#" className="footer__link">
+            <a href="https://meuportfolio-gamma.vercel.app/" className="footer__link" target="_blank"  rel="noreferrer">
             Vini.dev
             </a>
           </li>

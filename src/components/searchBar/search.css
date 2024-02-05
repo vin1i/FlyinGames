@@ -13,14 +13,14 @@
 
 .search__input{
   padding: 6px;
-  flex-grow: 1;
-  border: none;
-  outline: none;
-  border-radius: 2rem;
-  background-color: var(--body-color);
-  font-size: var(--small-font-size);
-  font-weight: var(--font-semi-bold);
-  border-right: 1px solid #fafafa;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: var(--body-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    border-right: 1px solid #fafafa;
+     /* Adicionado para ajustar o espaçamento à direita */
   
 }
 
@@ -54,3 +54,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
