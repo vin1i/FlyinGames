@@ -13,7 +13,7 @@ function PC  ()  {
   
 
 
-
+  
   return (
     <section className="pc section" id="computer">
       <h2 className="section__title">Novidades</h2>

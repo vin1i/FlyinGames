@@ -1,3 +1,26 @@
+
+
+let gamesPctest = [];
+
+export const getGames = async () => {
+  
+  const URL = 'http://localhost:3001/gamer';
+  await fetch( URL)
+    .then(res => res.json())
+    .then((data) => {
+      gamesPctest = data;
+    });
+    
+  console.log(gamesPctest);
+};
+getGames();
+  
+export default gamesPctest;
+
+
+
+
+
 import Image1 from '../assets/RDR2.jpg';
 import Image2 from '../assets/Fallout4.png';
 import Image3 from '../assets/mafia3.jpg';

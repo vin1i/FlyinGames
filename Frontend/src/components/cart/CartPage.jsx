@@ -25,10 +25,12 @@ const CartPage = () => {
         <div className="container__checkout">
        
           <h2 className="section__title">Subtotal: R${totalAmount}</h2>
-          <button  onClick={() => navigate('/')}>Continue Comprando</button>
-          <button >Checkout</button>
+          <button  onClick={() => navigate('/')} className="btn__cart-page">Continue Comprando</button>
+          <button className="btn__cart-page">Checkout</button>
         </div>) : ( 
-        <h1 className="cart-empty">Seu carrinho está vazio🥲</h1> 
+        <div className="section__cart-empty">
+          <h1 className="cart-empty">Seu carrinho está vazio🥲</h1>
+          <button  onClick={() => navigate('/')}  className="btn__cart-page">Continue Comprando</button></div>
       ) }
     </section> <Footer /></>
   );
