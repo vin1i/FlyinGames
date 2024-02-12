@@ -4,7 +4,7 @@ import { ShopContext } from '../context/shop-context';
 import PropTypes from 'prop-types';
 
 export const CartItem = (props) => {
-  const {id, title, price, genre, image } = props.data;
+  const {id, title, price, category, image } = props.data;
   const { cartItems, addToCart, removeFromCart, updateCartItemCount} = useContext(ShopContext);
   return (
     
@@ -22,7 +22,7 @@ export const CartItem = (props) => {
             <input className= "input__cart" value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id) } />
             <button onClick={() => addToCart(id)} className="button__cart"> + </button>
           </div>
-          <h3 className="card__genre">{genre}</h3>
+          <h3 className="card__category">{category}</h3>
         </div>
       </div>
     </section>
@@ -34,7 +34,7 @@ CartItem.propTypes = {
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired,
-    genre: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
   }).isRequired,
 };

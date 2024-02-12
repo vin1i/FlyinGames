@@ -163,6 +163,33 @@ img{
  
 }
 
+.card__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  line-height: 1.5;
+  margin-bottom: var(--mb-0-25);
+  
+}
+
+.card__price{
+  font-size: var(--small-font-size);
+  display: block;
+  margin-bottom: var(--mb-0-25);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.card__category{
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+}
+
+
+
+
 
 /*-------------------------------------------LAYOUT-----------------------------------------*/
 
@@ -224,7 +251,10 @@ img{
     width: 22px;
     height: 22px;
    }
-  
+ 
+   
+
+
 }
 
 /*For medium devices*/
@@ -240,6 +270,26 @@ img{
   .section__subtitle{
     margin-bottom: var(--mb-3);
   }
+
+
+  .card__name{
+    font-size: var(--small-font-size);
+   
+    
+  }
+
+
+.card__price{
+  font-size: var(--small-font-size);
+
+}
+
+.card__category
+{
+  font-size: var(--smaller-font-size);
+ 
+}
+
 }
 
 @media screen and (max-width: 576px){

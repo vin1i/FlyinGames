@@ -51,13 +51,13 @@ function PC  ()  {
         }}
         modules={[Pagination]}
       >
-        {gamesPc.map(({ id, image, title, price, genre }) => (
+        {gamesPc.map(({ id, image, title, price, category }) => (
           <SwiperSlide className="pc__card" key={id}>
             <Link to={`/game/${id}`}>
               <img src={image} alt="" className="pc__img" />
-              <h3 className="pc__name">{title}</h3>
-              <h5 className="pc__price">{price}</h5>
-              <p className="pc__description">{genre}</p>
+              <h3 className="card__name">{title}</h3>
+              <h5 className="card__price">{price}</h5>
+              <p className="card__category">{category}</p>
             </Link>
           </SwiperSlide>
         ))}

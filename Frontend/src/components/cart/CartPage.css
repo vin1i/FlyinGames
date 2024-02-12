@@ -1,12 +1,16 @@
 
 
 .section__cart{
- padding: 100px 20px 20px 0 ;
- zoom: 90%;
+    padding-top: 5.5rem;
+
 }
 
 .cart-empty{
- 
+  
+  display: block;
+  font-size: var(--h1-font-size);
+  margin-bottom: 4rem;
+  text-align:center;
 }
 
 .cartItems {
@@ -18,7 +22,7 @@
    gap: 20px;
 }
 
-/* Restante do seu código CSS continua aqui... */
+
 
 
 .container__checkout{
@@ -27,16 +31,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 6.5rem;
 }
-.section__cart-empty{
-  text-align: center;
-  font-size: var(--h1-font-size);
-   padding:160px ;
-   width: 100%;
-   height: 60vh;
- 
-}
+
+
 .btn__cart-page{
+  
   padding: 15px 30px;
   font-weight: 500;
  border: none;
@@ -51,24 +51,78 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 background-color: var(--body-color);
  }
  
+ .section__cart-empty{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
 
+.div__cart-empty{
+ 
+    padding-top: 2.5rem;
+    column-gap: 1rem;
+    align-items: center;
+
+}
+
+ .btn__cart-back{
+  
+
+  margin-bottom: 5.5rem;
+  padding: 15px 30px;
+  font-weight: 500;
+ border: none;
+ border-radius: 50px;
+ background: none;
+ cursor: pointer; 
+ transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.btn__cart-back:hover{
+color: var(--main-color);
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: var(--body-color);
+ }
 /*-------------------------------------------BREAKPOINTS-----------------------------------------*/
 
 
 
 /*For large devices*/
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 360px) {
+  .cart-empty{
+   
+    font-size: var(--h1-font-size);
+    
+     width: 10%;
+   }
+   
+   .btn__cart-page{
+    padding: 15px 3px;
+    font-weight: 500;
+   border: none;
+   border-radius: 50px;
+   background: none;
+   cursor: pointer; 
+   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+   
+} */
+
+
+/*For large devices*/
+
+/* @media screen and (max-width: 768px) {
   .cart-empty{
     text-align: center;
+    justify-content: center;
     font-size: var(--h1-font-size);
      padding:90px ;
      width: 100%;
    }
    
-   .section__cart{
-    padding: 0;
-    zoom: 100%;
-   }
+  
    
-}
+} */
