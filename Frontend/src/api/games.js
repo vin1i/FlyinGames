@@ -1,21 +1,21 @@
 
 
-// let gamesPctest = [];
+let gamesPctest = [];
 
-// export const getGames = async () => {
+export const getGames = async () => {
   
-//   const URL = 'http://localhost:3001/gamer';
-//   await fetch( URL)
-//     .then(res => res.json())
-//     .then((data) => {
-//       gamesPctest = data;
-//     });
+  const URL = 'http://localhost:3001/gamer';
+  await fetch( URL)
+    .then(res => res.json())
+    .then((data) => {
+      gamesPctest = data;
+    });
     
-//   console.log(gamesPctest);
-// };
-// getGames();
+  console.log(gamesPctest);
+};
+getGames();
   
-// export default gamesPctest;
+export default gamesPctest;
 
 
 
