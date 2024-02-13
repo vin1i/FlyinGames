@@ -51,7 +51,7 @@ export const gamesPc  = [
     id: 2,
     image: Image2,
     title: 'Fallout 4',
-    price: 'R$135 ',
+    price: 'R$130 ',
     category: 'Ação | Aventura',
   },
   {
