@@ -51,6 +51,6 @@ O FlyinGames visa criar uma plataforma de comércio eletrônico especializada em
 ## Link do Projeto
  FlyinGames
  
-  [ Acesse aqui para ver o protótipo](https://flyingames.vercel.app/)
+  [ Acesse aqui para ver o projeto](https://flyingames.vercel.app/)
 
 **Nota:** Este projeto é um protótipo em desenvolvimento. Trata-se de um trabalho pessoal, e as funcionalidades apresentadas são destinadas apenas para demonstração e exposição de habilidades.
