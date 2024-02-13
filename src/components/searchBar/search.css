@@ -1,0 +1,59 @@
+
+
+
+.search__bar{
+  display: flex;
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 270px;
+  justify-content: space-between;
+ padding-right:13px ;
+  box-shadow: var(--main-color) 0px 2px 1px;
+}
+
+.search__input{
+  padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: var(--body-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    border-right: 1px solid #fafafa;
+     /* Adicionado para ajustar o espaçamento à direita */
+  
+}
+
+
+
+.search__button{
+  
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: var(--main-color);
+}
+
+.loading-search__icon{
+  color: var(--main-color);
+
+  animation: spin 1s infinite linear;/* Isso garante que o spinner esteja centralizado verticalmente na tela */
+
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
