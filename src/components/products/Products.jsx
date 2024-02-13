@@ -23,7 +23,7 @@ export const Products = (props) => {
 
         <h2 className="card__price">{props.data.price}</h2>
 
-        <h2 className="card__genre">{props.data.genre}</h2>
+        <h2 className="card__category">{props.data.category}</h2>
       </div>
     </div>
     <button type="button" className="button__add-cart" onClick={() => addToCart(id)}>
@@ -46,6 +46,6 @@ Products.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired,
-    genre: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
   }).isRequired,
 };
